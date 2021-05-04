@@ -26,3 +26,20 @@
 	display: table;
 	clear:both;
 }
+
+.button {
+	background-color: #3bd967;
+	border: none;
+	color:white;
+	padding: 10px 20px;
+	text-align:center;
+	text-decoration:none;
+	display: inline-block;
+	margin:4px 2px;
+	cursor:pointer;
+	border-radius:16px;
+}
+
+.button:hover {
+	background-color:#50e67a;
+}
