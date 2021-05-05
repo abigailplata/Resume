@@ -1,6 +1,6 @@
 #general {
 	padding: 30px;
-	background-image:linear-gradient( #b3b2b2, #282828);
+	background-image:linear-gradient( #787878, #282828);
 	font-family: verdana, helvetica;
 	color: white;
 }
@@ -55,6 +55,22 @@ ul {
 
 h1 {
 	font-size:50px;;
+}
+
+h2 {
+ display: inline-block;
+padding-bottom:15px;
+position:relative; 
+}
+
+h2:before{
+	content: "";
+	position:absolute;
+	width:50%;
+	height: 1px;
+	bottom:0;
+	left:25%;
+	border-bottom:4px solid #3bd967;
 }
 
 h3 {
