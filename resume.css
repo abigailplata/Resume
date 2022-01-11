@@ -5,8 +5,32 @@
 	color: white;
 }
 
+#header_background{
+	background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(17, 17, 17, 0.73)),
+    url('palmtrees.jpg');
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
 * {
 	box-sizing: border-box;
+}
+
+.header-right {
+	float: right;
+  }
+
+.header a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	border-radius: 4px;
 }
 
 .column {
@@ -87,3 +111,13 @@ h4 {
 	color: #DCDCDC;
 }
 
+@media screen and (max-width: 500px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	.header-right {
+	  float: none;
+	}
+  }
