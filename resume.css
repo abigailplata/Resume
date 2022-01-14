@@ -20,6 +20,10 @@
 	box-sizing: border-box;
 }
 
+.line_header_a{
+	line-height: 0%;
+}
+
 .column {
 	float:left;
 	padding:10px;
