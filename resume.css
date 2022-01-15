@@ -20,10 +20,6 @@
 	box-sizing: border-box;
 }
 
-.line_header_a{
-	line-height: 0%;
-}
-
 .column {
 	float:left;
 	padding:10px;
@@ -69,8 +65,12 @@ ul {
 	list-style-image: url("playbutton3.png");
 }
 
+header {
+	width: 100%;
+}
+
 h1 {
-	font-size:50px;;
+	font-size:3.90625vw;
 }
 
 h2 {
