@@ -170,15 +170,17 @@ h4 {
 	font-weight:100;
 	color: #DCDCDC;
 }
-/* didnt do anything: */
-@media screen and (max-width:1200px) {
-	.topnav a:not(:first-child) {display:none;}
-	.topnav a.icon {
+
+
+@media only screen and (max-width:600px) {
+	/* nav button:not(:first-child) {display:none;}
+	nav button.icon {
 		float:right;
 		display: block;
-	}
+	} */
 }
 
+/*
 @media screen and (max-width:1200px) {
 	.topnav.responsive {position:relative;}
 	.topnav.responsive .icon {
@@ -191,4 +193,6 @@ h4 {
 		display:block;
 		text-align:left;
 	}
-}
+} 
+
+*/
