@@ -173,11 +173,11 @@ h4 {
 
 
 @media only screen and (max-width:600px) {
-	/* nav button:not(:first-child) {display:none;}
-	nav button.icon {
+	.topnav button:not(:first-child) {display:none;}
+	.topnav button.icon {
 		float:right;
 		display: block;
-	} */
+	}
 }
 
 /*
