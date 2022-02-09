@@ -209,11 +209,17 @@
 	margin-bottom:5px;
 }
 
+/* triangle right equilateral */
+/* fix position */
 .playtriangle {
-	width: 10px;
-	border-width: 5px;
-	border-color: transparent transparent transparent white;
-	border-style: solid;
+	
+	--side-size: 5px ;
+	border-right: var(--side-size) solid transparent;
+    border-top: var(--side-size) solid transparent;
+    border-left: calc(2 * var(--side-size) * 0.866) solid rgb(182, 181, 181);
+    border-bottom: var(--side-size) solid transparent;
+	z-index: 2;
+	
 }
 
 a:link, a:visited {
