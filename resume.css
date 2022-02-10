@@ -219,6 +219,10 @@
     border-left: calc(2 * var(--side-size) * 0.866) solid rgb(182, 181, 181);
     border-bottom: var(--side-size) solid transparent;
 	z-index: 2;
+	display:block;
+	position: absolute; /* only works on your screen */
+	left: 591px; 
+	bottom:20px;
 	
 }
 
