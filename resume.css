@@ -226,6 +226,54 @@
 	
 }
 
+.skiptriangle {
+	--side-size: 5px ;
+	border-right: var(--side-size) solid transparent;
+    border-top: var(--side-size) solid transparent;
+    border-left: calc(2 * var(--side-size) * 0.866) solid rgb(182, 181, 181);
+    border-bottom: var(--side-size) solid transparent;
+	z-index: 2;
+	display:block;
+	position: absolute; /* only works on your screen */
+	left: 625px; 
+	bottom:20px;
+}
+
+.skipline {
+	width:1px;
+	height:11px;
+	border:1px solid rgb(182, 181, 181);
+	background-color: rgb(182, 181, 181);
+	position: absolute;
+	left: 633px;
+	bottom: 20px;
+
+}
+
+
+.rewindline {
+	width:1px;
+	height:11px;
+	border:1px solid rgb(182, 181, 181);
+	background-color: rgb(182, 181, 181);
+	position: absolute;
+	left: 548px;
+	bottom: 20px;
+}
+
+.rewindtriangle {
+	--side-size: 5px ;
+	border-left: var(--side-size) solid transparent;
+    border-top: var(--side-size) solid transparent;
+    border-right: calc(2 * var(--side-size) * 0.866) solid rgb(182, 181, 181);
+    border-bottom: var(--side-size) solid transparent;
+	z-index: 2;
+	display:block;
+	position: absolute; /* only works on your screen */
+	left: 545px; 
+	bottom:20px;
+}
+
 a:link, a:visited {
 	text-decoration: none;
 	color:white;
