@@ -338,3 +338,17 @@ footer {
 		display: block;
 	}
 }
+
+
+@media only screen  and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+	.topnav button:not(:first-child) {display:none;}
+	.topnav button.icon {
+		float:right;
+		display: block;
+	}
+	[class*="column left"] {
+		width:100%;
+	}
+}
