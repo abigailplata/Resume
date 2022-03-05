@@ -340,9 +340,7 @@ footer {
 }
 
 
-@media only screen  and (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen  and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
 	.topnav button:not(:first-child) {display:none;}
 	.topnav button.icon {
 		float:right;
@@ -350,5 +348,8 @@ and (-webkit-min-device-pixel-ratio: 3) {
 	}
 	[class*="column left"] {
 		width:100%;
+	}
+	[class*="column right"] {
+		display:none;
 	}
 }
