@@ -4,3 +4,4 @@ I found that this would be a good challenge to brush up on my HTML, CSS, and Pyt
 ## Currently working on:
 - Adding a playbar at the footer of the page.
 - A Landing page
+- Download CV button
