@@ -28,6 +28,9 @@
 	padding-bottom:2.5rem;
 }
 
+* {
+	box-sizing: border-box;
+}
 
 
 .button {
@@ -53,7 +56,18 @@
 	border-color: white;
 }
 
-  @media only screen and (max-width:600px) {
+
+a:link, a:visited {
+	text-decoration: none;
+	color:white;
+}
+
+
+header {
+	width: 100%;
+}
+
+@media only screen and (max-width:600px) {
 	.topnav button:not(:first-child) {display:none;}
 	.topnav button.icon {
 		float:right;
