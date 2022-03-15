@@ -1,39 +1,32 @@
 <!DOCTYPE>
 <html>
-	<div id="general"> 
-		<div id="page-container">
-			<div id="content-wrap">
-				<head>
-					<title>Abigail Plata </title>
-					<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/mainpage.css')}}">
-					<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				</head>
+	<head>
+		<title>Abigail Plata </title>
+			<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/mainpage.css')}}">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
 
+	<body>
+	<div class = "wrapper">
+		<header>
+			<div class="topnav" id="myTopnav">
+				<nav>
+					<button class="button"> <a href=" "><b>HOME</b></a> </button>
+					<button class="button not1"> <a href="{{url_for('resume')}}"><b>EXPERIENCE</b></a> </button>
+					<button class="button not1"><a href="https://www.linkedin.com/in/abigailplatax3/"><b>LINKEDIN</b></a> </button>
+					<button class="button not1"><a href="https://github.com/abigailplata"><b>GITHUB</b></a> </button>							<button class="button not1"><a href="mailto:&#97;&#98;&#105;&#103;&#97;&#105;&#108;&#112;&#108;&#97;&#116;&#97;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><b>EMAIL</b></a> </button>
+				</nav>
+			</div>
+		</header>
 
-				<body>
-					<header>
-					<div class="topnav" id="myTopnav">
-						<nav>
-							<button class="button"> <a href=" "><b>HOME</b></a> </button>
-							<button class="button not1"> <a href="{{url_for('resume')}}"><b>EXPERIENCE</b></a> </button>
-							<button class="button not1"><a href="https://www.linkedin.com/in/abigailplatax3/"><b>LINKEDIN</b></a> </button>
-							<button class="button not1"><a href="https://github.com/abigailplata"><b>GITHUB</b></a> </button>
-							<button class="button not1"><a href="mailto:&#97;&#98;&#105;&#103;&#97;&#105;&#108;&#112;&#108;&#97;&#116;&#97;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><b>EMAIL</b></a> </button>
-						</nav>
-					</div>
-					</header>
+		<h2>HELLO THERE,</h2>
+		<h1>I am Abby</h1>
+		<p>
+			Aspiring engineer, Front-end developer, and much more...
+		</p>
 
-					<h2>HELLO THERE,</h2>
-					<h1>I am Abby</h1>
-					<p>
-						Your aspiring engineer, Front-end developer, and much more...
-					</p>
-
-					<button class="button hireme"><a href=" "><b>HIRE ME</b></a> </button>
+		<button class="button hireme"><a href=" "><b>HIRE ME</b></a> </button>
 					
-
-				</body>
-			</div> <!--end content wrap-->
-		</div> <!--end page container-->
-	</div> <!-- end #general -->
+	</div> <!-- end wrapper for grid -->
+	</body>
 </html>
