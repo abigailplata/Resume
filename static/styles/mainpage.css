@@ -5,8 +5,18 @@
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	gap: 0 ;
+	gap: 10 ;
 	grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-row: 1;
+	grid-column: 2/9;
+}
+
+.two {
+	grid-row: 3;
+	grid-column: 1/5 ;
 }
 
 
@@ -37,11 +47,6 @@
 a:link, a:visited {
 	text-decoration: none;
 	color:white;
-}
-
-nav {
-	top: 50px;
-	right: 0px;
 }
 
 header {
