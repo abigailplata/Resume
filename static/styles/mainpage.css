@@ -4,20 +4,17 @@
 
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	gap: 10 ;
-	grid-auto-rows: minmax(100px, auto);
+	grid-template-columns: [first] 275px [line-2] auto [col3-start] 275px [end];
+	grid-auto-rows: [row1-start] 25% [row1-end] 700px [third-line] auto [last-line];
 }
 
-.one {
-	grid-row: 1;
-	grid-column: 2/9;
-}
+.item-one { grid-area: header; }
 
-.two {
-	grid-row: 3;
-	grid-column: 1/5 ;
-}
+.item-two { grid-area: main;}
+
+.item-three { grid-area: sidebar;}
+
+.item-four { grid-area: footer;}
 
 
 .button {
