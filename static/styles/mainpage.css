@@ -1,10 +1,12 @@
+/* reesource for css grid: https://css-tricks.com/snippets/css/complete-guide-grid/*/
+
 * {
     font-family: verdana, helvetica;	
 }
 
 .container {
 	display: grid;
-	
+
 	grid-template-columns: 100px 100px 100px 100px;
 	grid-auto-rows: auto;
 
